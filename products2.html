@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Products</title>
+<style>
+    .product-container {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+    }
+    .product-name {
+        font-weight: bold;
+    }
+    .product-price {
+        font-style: italic;
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $.get("products.json", function(data) {
+        displayProducts(data);
+    });
+});
+// console.log(json_data);
+function displayProducts(productsData) {
+        var displayDiv = document.getElementById("products-container");
+        productsData.forEach(function(product) {
+            var productDiv = document.createElement("div");
+            productDiv.classList.add("product-container");
+            productDiv.innerHTML = `
+                <div class="product-name">${product.name}</div>
+                <div class="product-description">${product.description}</div>
+                <div class="product-price">Price: ${product.price}</div>
+                <div class="product-categories">Categories: ${product.categories.join(", ")}</div>
+            `;
+            displayDiv.appendChild(productDiv);
+        });
+    }
+</script>
+</head>
+<body>
+    <div id="products-container"></div>
+</body>
+</html>

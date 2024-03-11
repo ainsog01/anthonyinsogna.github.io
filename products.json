@@ -1,0 +1,62 @@
+[
+    { 
+        "name": "Forest Retreat",
+        "description": "Escape to the heart of the forest with the rejuvenating scent of pine needles, and earthy moss. Unwind and embrace the cozy ambiance of a rustic cabin nestled amidst nature's embrace.",
+        "price": "$8.50",
+        "categories": ["spring", "8oz"]
+    },
+    { 
+        "name": "Lavender Bliss",
+        "description": "Unwind and relax with the soothing aroma of lavender fields, gently kissed by the summer breeze. Let the delicate fragrance transport you to a tranquil oasis where your senses are enveloped in serenity and bliss.",
+        "price": "$12.99",
+        "categories": ["summer", "12oz", "best seller"]
+    },
+    { 
+        "name": "Cozy Cabin",
+        "description": "Immerse yourself in the cozy embrace of a rustic cabin with this invigorating blend of pine, cedarwood, and spices, evoking memories of crackling fires and warm blankets.",
+        "price": "$15.75",
+        "categories": ["spring", "12oz"]
+    },
+    { 
+        "name": "Vanilla Bean",
+        "description": "Indulge in the comforting aroma of freshly scraped vanilla beans, enveloping you in a warm and inviting embrace reminiscent of homemade desserts and sweet memories.",
+        "price": "$10.50",
+        "categories": ["summer", "8oz", "best seller"]
+    },
+    { 
+        "name": "Ocean Breeze",
+        "description": "Transport yourself to a tranquil seaside retreat with the fresh and crisp fragrance of ocean breeze, carrying hints of salt spray and sun-kissed shores for a refreshing escape.",
+        "price": "$9.25",
+        "categories": ["summer", "8oz"]
+    },
+    { 
+        "name": "Spiced Apple Pie",
+        "description": "Indulge in the delightful aroma of freshly baked apple pie, infused with warm spices and cinnamon, creating a comforting ambiance reminiscent of cozy autumn evenings and sweet indulgence.",
+        "price": "$14.99",
+        "categories": ["spring", "12oz"]
+    },
+    { 
+        "name": "Autumn Harvest",
+        "description": "Embrace the essence of fall with this rich blend of pumpkin, cinnamon, and nutmeg, capturing the warmth and abundance of the harvest season, inviting you to savor every moment of autumn's splendor.",
+        "price": "$11.75",
+        "categories": ["summer", "8oz"]
+    },
+    { 
+        "name": "Mountain Pine",
+        "description": "Immerse yourself in the crisp, refreshing scent of a pine forest, transporting you to the heart of nature's tranquility, where fresh mountain air fills your lungs and rejuvenates your spirit.",
+        "price": "$13.50",
+        "categories": ["spring", "12oz"]
+    },
+    { 
+        "name": "Midnight Jasmine",
+        "description": "Indulge in the exotic and alluring fragrance of midnight jasmine, as its intoxicating aroma fills the air with a sense of mystery and romance, evoking moonlit gardens and whispered secrets.",
+        "price": "$16.25",
+        "categories": ["summer", "12oz"]
+    },
+    { 
+        "name": "Citrus Splash",
+        "description": "Refresh your senses with this invigorating burst of citrus fruits, awakening your spirit with zesty notes of lemon, lime, and orange, like a splash of sunshine on a warm summer day.",
+        "price": "$9.99",
+        "categories": ["spring", "8oz"]
+    }
+]
